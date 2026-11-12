@@ -1,26 +1,36 @@
-# Excel work — matches résumé bullets
+# Part A — Excel (institute assignment)
 
-These are the steps used when building `Sales_Data_Analysis.xlsx` in Advanced Excel (Cloud Vision Technologies).
+**Dataset:** [Kaggle sales dataset](https://www.kaggle.com/datasets/vinothkannaece/sales-dataset) → `sales_data.csv`  
+Place a copy in `sales-data-analysis/data/` or use the workbook linked to that file.
 
-## Cleaning
+## Task 1 — Cleaning
 
-1. Load raw sales extract.  
-2. **Remove duplicates** on Order ID.  
-3. **Missing values:** fill or drop per column (e.g. quantity; blank region flagged then filled).
+- Remove duplicate `Product_ID` / full rows if duplicate transactions  
+- Fix missing values and date/number formats  
+- Document findings in a short “Data cleaning log” sheet  
 
-## Calculated columns (résumé: Profit, Total Cost, Sales Categories)
+## Task 2 — Calculated columns
 
-| Column | Logic |
-|--------|--------|
-| Revenue | Quantity × Unit Price × (1 − Discount %) |
-| Total Cost | Quantity × Unit Cost |
-| Profit | Revenue − Total Cost |
-| Sales Categories | Band from margin % (e.g. High / Medium / Low performer product mix) |
+| Column | Formula idea |
+|--------|----------------|
+| Total Cost | `=Quantity_Sold * Unit_Cost` |
+| Profit | `=Sales_Amount - Total_Cost` or use unit profit × qty |
+| Profit Per Unit | `=Unit_Price - Unit_Cost` (after discount logic if applied in sheet) |
 
-## Pivot tables
+## Task 3 — Date & category
 
-- **Rows:** Region × Category; **Values:** Sum of Profit, Sum of Revenue  
-- **Rows:** Sales Representative; **Values:** Profit margin %, order count  
-- **Filters:** Date period, category
+- **Year** / **Month** from `Sale_Date`  
+- **Sales category** band from `Sales_Amount` (e.g. Low / Medium / High)  
 
-The saved workbook is the deliverable; this doc is the written record of the same work claimed on the résumé.
+## Task 4 — Pivot tables
+
+Build pivots for:
+
+- Region  
+- Product_Category  
+- Sales_Rep  
+- Customer_Type  
+
+Summarize **Sales_Amount**, **Profit**, and/or **Quantity_Sold**. Note 2–3 performance insights in a short summary.
+
+Python **Part B & C** and GitHub submission: [python-sales-analysis](https://github.com/Deekshith254/python-sales-analysis).
