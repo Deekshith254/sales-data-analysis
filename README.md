@@ -1,26 +1,13 @@
 # Sales Performance & Profitability Analysis (Excel)
 
-**Author:** Salimeda Deekshith  
-**Tools:** Microsoft Excel (Pivot Tables, XLOOKUP, calculated columns)
+Résumé project **#1 — Excel portion** (Cloud Vision Technologies, Data Analytics with AI, 2026).
 
-Portfolio piece aligned with the **Sales Performance & Profitability Analysis** section on my resume.
+Python portion of the **same** résumé entry: [python-sales-analysis](https://github.com/Deekshith254/python-sales-analysis).
 
-## Contents
+## Résumé claims → this repo
 
-| File | Description |
-|------|-------------|
-| `Sales_Data_Analysis.xlsx` | Cleaned sales workbook: profit columns, categories, pivot views |
+- Cleaned raw sales data: duplicates removed, missing values handled  
+- Calculated **Profit**, **Total Cost**, **Sales Categories**  
+- Multi-dimensional **Pivot Tables**  
 
-## What this demonstrates
-
-- Removed duplicates and handled missing values on raw sales data
-- Built calculated fields for **Profit**, **Total Cost**, and **Sales Categories**
-- Multi-dimensional **Pivot Tables** for region, category, and sales representative views
-
-## Related repo
-
-Python / Pandas charts and EDA: [python-sales-analysis](https://github.com/Deekshith254/python-sales-analysis)
-
-## License
-
-MIT — synthetic / training data for portfolio use.
+**Proof:** `Sales_Data_Analysis.xlsx` · Details: `docs/EXCEL_STEPS.md` · Mapping: `RESUME_ALIGNMENT.md`
