@@ -1,7 +1,8 @@
-# Part A — Excel (institute assignment)
+# Part A — Excel tasks 1–4
 
-**Dataset:** [Kaggle sales dataset](https://www.kaggle.com/datasets/vinothkannaece/sales-dataset) → `sales_data.csv`  
-Place a copy in `sales-data-analysis/data/` or use the workbook linked to that file.
+Open **`Sales_Data_Analysis.xlsx`** and work through each task below.
+
+**Data file (optional download):** [Kaggle sales dataset](https://www.kaggle.com/datasets/vinothkannaece/sales-dataset) → `sales_data.csv` in the `data/` folder.
 
 ## Task 1 — Cleaning
 
