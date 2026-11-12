@@ -1,13 +1,23 @@
 # Sales Performance & Profitability Analysis (Excel)
 
-Résumé project **#1 — Excel portion** (Cloud Vision Technologies, Data Analytics with AI, 2026).
+**Author:** Salimeda Deekshith  
+**Context:** Data Analytics with AI certification — Cloud Vision Technologies, Hyderabad (2026)
 
-Python portion of the **same** résumé entry: [python-sales-analysis](https://github.com/Deekshith254/python-sales-analysis).
+Excel analysis for sales cleaning, profitability metrics, and pivot-based reporting.
 
-## Résumé claims → this repo
+**Companion repo (Python / Pandas):** [python-sales-analysis](https://github.com/Deekshith254/python-sales-analysis)
 
-- Cleaned raw sales data: duplicates removed, missing values handled  
-- Calculated **Profit**, **Total Cost**, **Sales Categories**  
-- Multi-dimensional **Pivot Tables**  
+## What this project covers
 
-**Proof:** `Sales_Data_Analysis.xlsx` · Details: `docs/EXCEL_STEPS.md` · Mapping: `RESUME_ALIGNMENT.md`
+- Cleaned raw sales data (duplicates, missing values)
+- Calculated **Profit**, **Total Cost**, and **Sales Categories**
+- Multi-dimensional **Pivot Tables** by region, category, and sales representative
+
+## Repository contents
+
+| Item | Description |
+|------|-------------|
+| `Sales_Data_Analysis.xlsx` | Workbook with cleaning, calculated fields, pivots |
+| `docs/EXCEL_STEPS.md` | Formula and pivot documentation |
+| `PROJECT_OVERVIEW.md` | Feature ↔ file mapping |
+| `RUN_LOCALLY.md` | How to run all related projects on your PC |
